@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 router.get('/', function(req, res, next) {
-  res.send({status:200,message:"boom boom boatng"});
+  res.send({status:200,message:"cristianoronaldo"});
 });
 router.get('/otr', function(req, res, next) {
     res.send({status:200,message:"boom otr"})
